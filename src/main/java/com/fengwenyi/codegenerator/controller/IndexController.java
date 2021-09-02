@@ -16,12 +16,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @since 2021-07-12
  */
 @Controller
+@RequestMapping("/")
 public class IndexController {
 
     @Autowired
     private IIndexService indexService;
 
-    @RequestMapping("/")
     public String index() {
         return "index";
     }

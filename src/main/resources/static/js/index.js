@@ -9,7 +9,11 @@ layui.use(function() {
         ,jQuery = layui.jquery;
 
 
-    jQuery("#inputAuthor").val('<a href="https://fengwenyi.com">Erwin Feng</a>')
+    jQuery("#inputAuthor").val('tymyjmac');
+    jQuery("#host").val('134.225.251.77:8801');
+    jQuery("#dbName").val('witdb_ods');
+    jQuery("#username").val('zhcwyy');
+    jQuery("#password").val('ZHYY_xp327444');
 
 
     //监听提交
