@@ -10,10 +10,10 @@ layui.use(function() {
 
 
     jQuery("#inputAuthor").val('tymyjmac');
-    jQuery("#host").val('134.225.251.77:8801');
-    jQuery("#dbName").val('witdb_ods');
-    jQuery("#username").val('zhcwyy');
-    jQuery("#password").val('ZHYY_xp327444');
+    jQuery("#host").val('121.40.29.87:3307');
+    jQuery("#dbName").val('yx_video');
+    jQuery("#username").val('root');
+    jQuery("#password").val('twkj@2018');
 
 
     //监听提交
